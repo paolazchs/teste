@@ -1,11 +1,14 @@
-import React from 'react'
+
 import styled from 'styled-components';
+
 
 const HeaderContainer = styled.div`
     display: flex;
     padding-left: 5rem;
     gap: 10rem;
 `;
+
+
 
 const HeaderSocial = styled.div`
     display: flex;
@@ -20,11 +23,12 @@ const HeaderInfo = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: center;
 `
 
 const HeaderTitle = styled.h1`
     font-size: 2.5rem;
-    padding-top: 5rem;
+    padding-top: 6.5rem;
 `;
 
 
@@ -45,10 +49,11 @@ const Header = () => {
         </HeaderSocial>
         
         <HeaderInfo>
-        <HeaderTitle>Paola de Oliveira 🖐</HeaderTitle>
+        <HeaderTitle>Paola de Oiveira 🖐</HeaderTitle>
         <Headerp>oi</Headerp>
-        <HeaderButton><button><a href="">Say hello!</a></button></HeaderButton>
+        <HeaderButton>Say hello!</HeaderButton>
         </HeaderInfo>
+
 
       </HeaderContainer>
     </div>
